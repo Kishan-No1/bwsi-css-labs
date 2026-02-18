@@ -57,12 +57,12 @@ while True:
         print("That's not a number. Please try again.")
 
     # Ask the user for the operation
-    while True:
-        operation = input("Enter the operation (add, subtract, multiply, divide): ").lower()
-        if operation == "add" or operation == "subtract" or operation == "multiply" or operation == "divide":
-            break
-        else:
-            print("Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.")
+while True:
+    operation = input("Enter the operation (add, subtract, multiply, divide): ").lower()
+    if operation == "add" or operation == "subtract" or operation == "multiply" or operation == "divide":
+        break
+    else:
+        print("Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.")
 
     # Perform the calculation and display the result
     result = simple_calculator(operation, num1, num2)
